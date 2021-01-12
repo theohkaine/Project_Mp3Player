@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg {
+  /* The image used */
+  background-image: url("./2.jpg");
+
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.center {
+  font-family: "Trebuchet MS";
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 90px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center; 
+  padding-top: 15%;
   color: white;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.6); 
 }
 
-.App-link {
-  color: #61dafb;
+.center_2 {
+  font-family: "Trebuchet MS";
+  font-size: 69px;
+  text-align: center; 
+  padding-top: 1%;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.6); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center_3 {
+  font-family: "Viner Hand ITC";
+  font-size: 68px;
+  text-align: center; 
+  color: white;
+  text-shadow: 5px 8px rgba(0, 0, 0, 0.6); 
 }
